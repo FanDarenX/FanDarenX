@@ -2,7 +2,7 @@
 
 🚀 **Aspiring Researcher in Embodied AI & Robotics**
 
-I am an undergraduate student majoring in Computer Science/Automation at **[Your University]**. My passion lies in bridging the gap between high-level AI reasoning and low-level robot control (Sim-to-Real).
+I am an undergraduate student majoring in Computer Science/Automation at **[NEFU]**. My passion lies in bridging the gap between high-level AI reasoning and low-level robot control (Sim-to-Real).
 
 Currently, I am focusing on **Open-Vocabulary Perception** and **Robust Control for Manipulators**.
 
