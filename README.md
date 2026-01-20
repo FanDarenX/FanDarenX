@@ -231,9 +231,9 @@ currently_learning = [
 ![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=FanDarenX.FanDarenX&left_color=0d1117&right_color=00d4aa)
 
 <!-- Snake Animation -->
-<div>
-  <img src="https://github-contribution-snake.vercel.app/api?username=FanDarenX&theme=dark" alt="Snake Animation"/>
-</div>>
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=00D4AA&height=100&section=header&text=GitHub%20Activity&fontSize=20" alt="GitHub Activity"/>
+</div>
 
 </div>
 
