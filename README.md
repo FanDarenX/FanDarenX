@@ -232,12 +232,8 @@ currently_learning = [
 
 <!-- Snake Animation -->
 <div>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/FanDarenX/FanDarenX/output/github-contribution-grid-snake-dark.svg"/>
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/FanDarenX/FanDarenX/output/github-contribution-grid-snake.svg"/>
-    <img src="https://raw.githubusercontent.com/FanDarenX/FanDarenX/output/github-contribution-grid-snake.svg" alt="Snake Animation"/>
-  </picture>
-</div>
+  <img src="https://github-contribution-snake.vercel.app/api?username=FanDarenX&theme=dark" alt="Snake Animation"/>
+</div>>
 
 </div>
 
