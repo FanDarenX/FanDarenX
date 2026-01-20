@@ -231,9 +231,12 @@ currently_learning = [
 ![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=FanDarenX.FanDarenX&left_color=0d1117&right_color=00d4aa)
 
 <!-- Snake Animation -->
-
 <div>
-  <img src="https://github-readme-snake.vercel.app/?theme=dark&username=FanDarenX&background=0D1117&border=00D4AA" alt="Snake Animation" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/FanDarenX/FanDarenX/output/github-contribution-grid-snake-dark.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/FanDarenX/FanDarenX/output/github-contribution-grid-snake.svg"/>
+    <img src="https://raw.githubusercontent.com/FanDarenX/FanDarenX/output/github-contribution-grid-snake.svg" alt="Snake Animation"/>
+  </picture>
 </div>
 
 </div>
