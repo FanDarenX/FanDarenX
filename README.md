@@ -228,7 +228,8 @@ currently_learning = [
 
 **Thanks for visiting my profile!**
 
-![Visitor Badge](https://github-visitor-counter-tau.vercel.app/api?username=FanDarenX&theme=dark&columns=4&maxflags=12)
+![Visitor Badge](https://github-visitor-counter-tau.vercel.app/api?username=FanDarenX&theme=dark&columns=4&maxflags=8)
+![Profile Views](https://komarev.com/ghpvc/?username=FanDarenX&label=Profile%20Views&color=00d4aa&style=flat-square)
 
 <!-- Snake Animation -->
 <div align="center">
