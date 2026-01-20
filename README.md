@@ -55,13 +55,6 @@ Currently, I am focusing on **Open-Vocabulary Perception** and **Robust Control 
   </tr>
 </table>
 
----
-
-### 📊 Github Stats
-
-![Qizhen's GitHub stats](https://github-readme-stats.vercel.app/api?username=FanDarenX&show_icons=true&theme=minimal)
-
----
 
 📫 **Contact Me:**
 - **Email:** xqz_xuanqizhen@qq.com
