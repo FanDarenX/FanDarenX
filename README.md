@@ -226,9 +226,9 @@ currently_learning = [
 <div align="center">
 
 
-**Thanks for visiting my profile!** 
+**Thanks for visiting my profile!**
 
-![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=FanDarenX.FanDarenX&left_color=0d1117&right_color=00d4aa)
+![Visitor Badge](https://github-visitor-counter-tau.vercel.app/api?username=FanDarenX&theme=dark&columns=4&maxflags=12)
 
 <!-- Snake Animation -->
 <div align="center">
