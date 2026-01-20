@@ -100,7 +100,7 @@ public:
       <sub>视觉-语言-情感融合</sub>
     </td>
     <td align="center">
-      <img src="https://www.svgrepo.com/download/470666/neural-network.png" alt="Open Vocabulary" width="48"/>
+      <img src="[https://www.svgrepo.com/download/470666/neural-network.png](https://cdn-icons-png.flaticon.com/512/2936/2936497.png)" alt="Open Vocabulary" width="48"/>
       <br />
       <strong>Open Vocabulary</strong>
       <br />
