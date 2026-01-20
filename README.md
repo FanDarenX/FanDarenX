@@ -248,30 +248,3 @@ currently_learning = [
 <sub><i>Last updated: January 2026 | Built with ❤️ and lots of ☕</i></sub>
 
 </div>
-
-<!-- Hidden Elements for Styling -->
-
-<style>
-  @keyframes fadeIn {
-    from { opacity: 0; transform: translateY(20px); }
-    to { opacity: 1; transform: translateY(0); }
-  }
-
-
-  table {
-    border-collapse: separate;
-    border-spacing: 20px;
-  }
-
-  td {
-    padding: 15px;
-    border-radius: 10px;
-    background: rgba(0, 212, 170, 0.1);
-    transition: all 0.3s ease;
-  }
-
-  td:hover {
-    background: rgba(0, 212, 170, 0.2);
-    transform: translateY(-5px);
-  }
-</style>
