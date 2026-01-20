@@ -1,116 +1,79 @@
-<div align="center">
+# Agent Profile: Qizhen Xuan (轩齐真)
 
-# 🦾 Agent_X: Qizhen Xuan (轩齐真)
-**Embodied AI & Robotics Researcher | Sim-to-Real Specialist**
-
-
+> Undergraduate Researcher | Embodied AI & Robotics  
+> Focus: **Perception–Decision–Control Loop in Physical Systems**
 
 ---
 
-### 🛡️ System Kernel: Core Mathematical Foundations
-> "The gap between simulation and reality is bridged by the elegance of mathematics."
+## 1️⃣ Research Identity
 
-$$
-\min_{u_{0:T-1}} \mathbb{E} \left[ \sum_{t=0}^{T-1} r(s_t, u_t) + r_T(s_T) \right] \quad \text{s.t.} \quad s_{t+1} = f(s_t, u_t, w_t)
-$$
-*Current Optimization Focus: Model Predictive Control (MPC) & Multi-modal Perception Alignment*
+I am an undergraduate student with a strong background in **robotic control systems** and **multimodal learning**.  
+My primary interest lies in **Embodied Intelligence**, especially:
 
----
+- How high-level semantic understanding (vision/language)  
+  can be grounded into **low-level robot control**
+- How to reduce the **Sim-to-Real gap** via modeling and feedback
 
-</div>
-
-### 📡 Active Neural Modules (Projects)
-
-<details open>
-<summary><b>[01] Perception: AffectGPT & Multimodal Learning</b></summary>
-<br>
-- <b>Objective:</b> Bridging high-level semantic understanding with low-level sensory inputs.
-- <b>Logic:</b> Utilized <code>CLIP-based</code> zero-shot learning to map environmental visual features to emotional latent spaces.
-- <b>Status:</b> <code>STABLE</code> | <b>Framework:</b> PyTorch / Transformers
-</details>
-
-<details open>
-<summary><b>[02] Actuation: RoboMaster Engineering System</b></summary>
-<br>
-- <b>Objective:</b> Precision manipulation under high-dynamic adversarial environments.
-- <b>Modeling:</b> 6-DOF Manipulator with <code>D-H Parameters</code>; solved <code>Inverse Kinematics</code> for real-time path planning.
-- <b>Status:</b> <code>DEPLOYED (National 2nd Prize)</code> | <b>Kernel:</b> RTOS / C++ / ROS2
-</details>
-
-
+> I treat robots not as programs, but as **agents embedded in physics**.
 
 ---
 
-### 🛠️ Hardware & Software Stack (Dependencies`markdown
-<div align="center">
+## 2️⃣ Core Research Questions
 
-# 🦾 Agent_X: Qizhen Xuan (轩齐真)
-**Embodied AI & Robotics Researcher | Sim-to-Real Specialist**
+Instead of listing skills, I focus on questions:
 
+- **Perception:**  
+  How can robots interpret *open-world* semantic signals beyond closed labels?
 
+- **Decision:**  
+  How should representations from perception influence planning or control?
 
----
-
-### 🛡️ System Kernel: Core Mathematical Foundations
-> "The gap between simulation and reality is bridged by the elegance of mathematics."
-
-$$
-\min_{u_{0:T-1}} \mathbb{E} \left[ \sum_{t=0}^{T-1} r(s_t, u_t) + r_T(s_T) \right] \quad \text{s.t.} \quad s_{t+1} = f(s_t, u_t, w_t)
-$$
-*Current Optimization Focus: Model Predictive Control (MPC) & Multi-modal Perception Alignment*
+- **Control:**  
+  How can classical control (PID/LQR/KF) coexist with learning-based methods?
 
 ---
 
-</div>
+## 3️⃣ Active Research Modules
 
-### 📡 Active Neural Modules (Projects)
+### 🧠 Module A — Multimodal Perception (AffectGPT)
 
-<details open>
-<summary><b>[01] Perception: AffectGPT & Multimodal Learning</b></summary>
-<br>
-- <b>Objective:</b> Bridging high-level semantic understanding with low-level sensory inputs.
-- <b>Logic:</b> Utilized <code>CLIP-based</code> zero-shot learning to map environmental visual features to emotional latent spaces.
-- <b>Status:</b> <code>STABLE</code> | <b>Framework:</b> PyTorch / Transformers
-</details>
+**Problem:**  
+Traditional emotion recognition relies on fixed categories and lacks generalization.
 
-<details open>
-<summary><b>[02] Actuation: RoboMaster Engineering System</b></summary>
-<br>
-- <b>Objective:</b> Precision manipulation under high-dynamic adversarial environments.
-- <b>Modeling:</b> 6-DOF Manipulator with <code>D-H Parameters</code>; solved <code>Inverse Kinematics</code> for real-time path planning.
-- <b>Status:</b> <code>DEPLOYED (National 2nd Prize)</code> | <b>Kernel:</b> RTOS / C++ / ROS2
-</details>
+**Approach:**  
+- Reproduced **AffectGPT**
+- Used **CLIP-style semantic alignment** to enable *open-vocabulary* emotion modeling
+- Focused on representation learning rather than downstream classification
 
-
+**Keywords:**  
+`Multimodal Learning` · `Transformer` · `Open-Vocabulary` · `PyTorch`
 
 ---
 
-### 🛠️ Hardware & Software Stack (Dependencies)
+### 🤖 Module B — Physical Interaction & Control (RoboMaster)
 
-```mermaid
-graph LR
-    A[Perception: CLIP/YOLO] --> B{Central Reasoning}
-    B --> C[Control:
-```` PID/LQR]
-    C --> D[Hardware: Jetson Orin/STM32]
-    D --> E[Real-world Feedback
-````]
-    E --> A
-    style B fill:#f9f,stroke:#333,stroke-width:4px
-Environment: Ubuntu 22.04 LTS / ROS2 Humble / Isaac Gym (Learning)
+**Problem:**  
+High-speed, adversarial environments amplify modeling errors and disturbances.
 
-Languages: `CC++ (Modern/STL) / Python (Data-Driven) / MATLAB (System ID)
+**Approach:**  
+- Modeled a **6-DOF manipulator** using DH parameters
+- Designed **cascade PID + feedforward control**
+- Applied **Kalman filtering** for state estimation under sensor noise
+- Deployed on real hardware (STM32H7)
 
-Hardware Proficiency: Jetson Orin NX, CAN Bus Protocol, LiDAR Perception
+**Outcome:**  
+🏆 RoboMaster National Second Prize
 
-📊 Training Progress (GitHub Activity)
-<div align="center">
-<img src="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api%3Fusername%3DFanDarenX%26show\_icons%3Dtrue%26theme%3Dtransparent%26hide\_border%3Dtrue%26title\_color%3D00e5ff%26text\_color%3Dffffff%26icon\_color%3D00e5ff" width="48%">
-<img src="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api/top-langs/%3Fusername%3DFanDarenX%26layout%3Dcompact%26theme%3Dtransparent%26hide\_border%3Dtrue%26title\_color%3D00e5ff%26text\_color%3Dffffff" width="45%">
-</div>
+**Keywords:**  
+`Robotics` · `Control Theory` · `State Estimation` · `Embedded Systems`
 
-<div align="center">
-<code>Connection established via <a href="mailto:xqz_xuanqizhen@qq.com">xqz_xuanqizhen@qq.com</a></code>
-<br>
-<sub>"Stay Hungry, Stay Embodied."</sub>
-</div>
+---
+
+## 4️⃣ System View: Embodied Intelligence Loop
+
+```text
+[ Perception ]
+   ↑        ↓
+[ World ] ← [ Decision ]
+   ↑        ↓
+[ Actuation / Control ]
