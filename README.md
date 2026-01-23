@@ -180,9 +180,9 @@ current_projects = {
     "AffectGPT-OVKD": {
         "status": "Active Development",
         "goal": "Open-vocabulary emotion recognition",
-        "progress": "75%"
+        "progress": "55%"
     },
-    "RoboMaster AI": {
+    "RoboMaster": {
         "status": "Competition Prep",
         "goal": "Autonomous robot perception",
         "progress": "60%"
